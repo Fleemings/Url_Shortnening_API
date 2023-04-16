@@ -22,4 +22,18 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Avoid accidental Sketch file upload
+*.Sketch
+
+# Avoid Accidental XD or Figma upload
+
+*.xd
+*.fig 
+
+# Avoid having .DS_STORE files
+
+.DS_Store
+
+
+
 
