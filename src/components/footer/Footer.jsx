@@ -4,12 +4,13 @@ import pinterest from '../../images/icon-pinterest.svg';
 import twitter from '../../images/icon-twitter.svg';
 import instagram from '../../images/icon-instagram.svg';
 import logo from '../../images/footer-logo.svg';
+import './Footer.css';
 
 const Footer = () => {
   return (
     <>
       <footer className='bg-slate-900 py-10  lg:py-20'>
-        <div className='max-width grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-5'>
+        <div className='footerCard max-width grid grid-cols-1 gap-5 md:grid-cols-4 lg:grid-cols-5'>
           <article>
             <img src={logo} alt='footer-logo' />
           </article>
@@ -77,7 +78,7 @@ const Footer = () => {
                   Careers
                 </button>
               </li>
-              <li>
+              <li className='footerContact'>
                 <button className='text-slate-200 text-sm mt-1'>
                   Contacts
                 </button>
@@ -85,7 +86,7 @@ const Footer = () => {
             </ul>
           </article>
           <article>
-            <ul className='flex items-center'>
+            <ul className='flex items-center justify-center'>
               <li>
                 <img src={facebook} alt='facebook logo' />
               </li>

@@ -1,0 +1,10 @@
+@media screen and (min-width: 374px) {
+  .footerCard {
+    justify-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .footerContact {
+    margin-bottom: 1rem;
+  }
+}
