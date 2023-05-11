@@ -44,7 +44,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 ### Clone
 
 ```bash
-   https://github.com/Fleemings/findWork.git
+   https://github.com/Fleemings/Url_Shortnening_API.git
 ```
 
 ### Install dependencies
